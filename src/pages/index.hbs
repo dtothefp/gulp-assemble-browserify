@@ -1,0 +1,8 @@
+---
+layout: header.hbs
+visible_title: Terms of Service Agreement
+---
+<div id="main-ctrl">
+  <div class="button" v-on="click: tgmodal($event)">[[modal.showMessage | capitalize]] Modal</div>
+  <div v-component="optly-modal" v-with="name"><input type="text" placeholder="something new"/><h1>hello</h1></div>
+</div>

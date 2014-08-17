@@ -1,0 +1,21 @@
+{
+  "name": "gulp-starter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/greypants/gulp-starter",
+  "authors": [
+    "dtothefp <dtothefp@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "ractive": "~0.5.5",
+    "vue": "~0.10.6"
+  }
+}
